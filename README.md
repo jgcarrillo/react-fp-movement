@@ -3,9 +3,9 @@
 ## Table of contents 👇
 
 - [✨ Motivation](#-motivation)
-- [🚩 Technologies](#-tecnologies)
+- [🚩 Technologies](#-technologies)
 - [🕸️ Project Structure](#-project-structure)
-- [🚀 Basic Explanation](#🚀-basic-explanation)
+- [🚀 Basic Explanation](#-basic-explanation)
 - [🌎 Contact](#-contact)
 
 ## ✨ Motivation
