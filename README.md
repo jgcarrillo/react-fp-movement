@@ -103,6 +103,7 @@ const { camera } = useThree();
 
 // ...
 
+ref.current.getWorldPosition(camera.position);
 direction.subVectors(frontVector, sideVector).normalize().multiplyScalar(SPEED).applyEuler(camera.rotation);
 ```
 
