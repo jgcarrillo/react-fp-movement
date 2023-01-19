@@ -10,9 +10,9 @@
 
 ## ✨ Motivation
 
-A few months ago I started to working with **React Three Fiber**. I was impressed with the possibilities that the library gives you to create 3D environments. I saw a wide variety of examples in [R3F website](https://docs.pmnd.rs/react-three-fiber/getting-started/examples) so I started to explore more about the project.
+A few months ago I started to working with **React Three Fiber**. I was impressed with the possibilities the library gives to you to create 3D environments. I saw a wide variety of examples in [R3F website](https://docs.pmnd.rs/react-three-fiber/getting-started/examples) so I started to explore more about the project.
 
-There are so many good examples out there, but I get motivated with some of them, for example, a [Ping Pong game](https://codesandbox.io/s/ping-pong-0mgum) or event a [simple Arkanoid clone](https://codesandbox.io/s/arkanoid-under-60-loc-66cd7).
+There are so many good examples out there, but I get motivated with some of them, for example, a [Ping Pong game](https://codesandbox.io/s/ping-pong-0mgum) or even a [simple Arkanoid clone](https://codesandbox.io/s/arkanoid-under-60-loc-66cd7).
 
 Since that, I have working in so many pet projects to understand the _key concepts_ of React Three Fiber and also **Three.js**. I don't consider myself a R3F pro, nor even a beginner, but now I feel confident about the fact that I can create such 3D scenarios.
 
