@@ -1,5 +1,7 @@
 # React Three Fiber - First Person Movement
 
+Forked from Jorge. G. Adding characters movement and other animations. Also change the camera to sky view.
+
 ## Table of contents 👇
 
 - [✨ Motivation](#-motivation)
@@ -62,12 +64,12 @@ First of all you need to declare the `<PointerLockControls />` inside your **Can
 
 ```js
 // BaseScene.js
-import { Canvas } from '@react-three/fiber';
-import { Loader, PointerLockControls } from '@react-three/drei';
-import { Physics } from '@react-three/cannon';
+import { Canvas } from "@react-three/fiber";
+import { Loader, PointerLockControls } from "@react-three/drei";
+import { Physics } from "@react-three/cannon";
 
-import Lights from '../components/Lights.js';
-import Floor from '../components/Floor.js';
+import Lights from "../components/Lights.js";
+import Floor from "../components/Floor.js";
 
 const BasicScene = ({ children }) => {
   return (
@@ -97,14 +99,18 @@ Once here, the next step is to set the **direction** and include the method `.ap
 ```js
 // BaseCharacter.js
 
-import { useFrame, useThree } from '@react-three/fiber';
+import { useFrame, useThree } from "@react-three/fiber";
 
 const { camera } = useThree();
 
 // ...
 
 ref.current.getWorldPosition(camera.position);
-direction.subVectors(frontVector, sideVector).normalize().multiplyScalar(SPEED).applyEuler(camera.rotation);
+direction
+  .subVectors(frontVector, sideVector)
+  .normalize()
+  .multiplyScalar(SPEED)
+  .applyEuler(camera.rotation);
 ```
 
 ## 🌎 Contact

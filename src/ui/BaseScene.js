@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { Loader, PointerLockControls } from '@react-three/drei';
+import { Loader, PointerLockControls, Stats } from '@react-three/drei';
 import { Physics } from '@react-three/cannon';
 
 import Lights from '../components/Lights.js';
@@ -18,7 +18,17 @@ const BasicScene = ({ children }) => {
         </Physics>
 
         <PointerLockControls />
+        <Stats />
       </Canvas>
+      <div className="app-info">
+        <div>Controls :</div>
+        <ul>
+          <li>Use WASD to move characters.</li>
+          <li>Hold 'shift' to run.</li>
+          <li>'space' to jump.</li>
+          <li>Hold 'p' for punching.</li>
+        </ul>
+      </div>
       <Loader />
     </div>
   );

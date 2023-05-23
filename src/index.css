@@ -23,3 +23,10 @@ canvas {
   transform: translate3d(-50%, -50%, 0);
   border: 2px solid white;
 }
+
+.app-info {
+  position: absolute;
+  right: 1vw;
+  bottom: 15vh;
+  width: 200px;
+}
