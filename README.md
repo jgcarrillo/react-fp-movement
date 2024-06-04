@@ -1,5 +1,14 @@
 # React Three Fiber - First Person Movement
 
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/jgcarrillo/react-fp-movement)
+![GitHub issues](https://img.shields.io/github/issues/jgcarrillo/react-fp-movement)
+![GitHub forks](https://img.shields.io/github/forks/jgcarrillo/react-fp-movement)
+![GitHub PRs](https://img.shields.io/github/issues-pr/jgcarrillo/react-fp-movement)
+
+</div>
+
 ## Table of contents 👇
 
 - [✨ Motivation](#-motivation)
