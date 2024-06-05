@@ -1,5 +1,3 @@
-# React Three Fiber - First Person Movement
-
 <div align="center">
 
 ![GitHub stars](https://img.shields.io/github/stars/jgcarrillo/react-fp-movement)
